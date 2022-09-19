@@ -16,14 +16,14 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'VueNumberFormat',
       fileName: (format) => `VueNumberFormat.${format}.js`,
-    }
-  },
-  rollupOptions: {
-    external: ['vue'],
-    output: {
-      globals: {
-        vue: 'Vue'
+    },
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue'
+        }
       }
     }
-  }
+  },
 })
