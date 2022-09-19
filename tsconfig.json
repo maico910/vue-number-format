@@ -8,10 +8,4 @@
     },
     "allowJs": true
   },
-
-  "references": [
-    {
-      "path": "./tsconfig.json"
-    }
-  ]
 }
