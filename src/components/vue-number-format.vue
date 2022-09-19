@@ -9,8 +9,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { format, unformat, setCursor, setCursorPosition } from './utils'
-import { defaultOptions } from './defaultOptions'
+import { format, unformat, setCursor, setCursorPosition } from '../utils'
+import { defaultOptions } from '../types/defaultOptions'
 
 export default defineComponent({
   name: 'VueNumberFormat',
@@ -68,7 +68,7 @@ export default defineComponent({
         this.$emit('update:value', value)
       }
     }
-    
+
   }
 })
 </script>

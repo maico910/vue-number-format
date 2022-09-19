@@ -1,11 +1,11 @@
 /*global global */
-import VueNumberFormat from './vue-number-format.vue'
-import { defaultOptions, IDefaultOptions } from './defaultOptions'
+import VueNumberFormat from './components/vue-number-format.vue'
+import { defaultOptions, IDefaultOptions } from './types/defaultOptions'
 import { format, unformat } from './utils'
 
 // Declare install function executed by Vue.use()
 const install = (Vue, options: IDefaultOptions) => {
-  
+
   Vue.component('VueNumberFormat', VueNumberFormat)
 
   const mergedOptions = Object.assign({}, defaultOptions, options)
