@@ -2,9 +2,8 @@
   "name": "@igortrindade/vue-number-format",
   "version": "1.4.0",
   "description": "",
-  "main": "dist/VueNumberFormat.umd.js",
-  "module": "dist/VueNumberFormat.es.js",
-  "declaration": true,
+  "main": "./dist/VueNumberFormat.umd.js",
+  "module": "./dist/VueNumberFormat.es.js",
   "exports": {
     ".": {
       "import": "./dist/VueNumberFormat.es.js",
@@ -12,7 +11,7 @@
     }
   },
   "files": [
-    "dist/*"
+    "dist"
   ],
   "scripts": {
     "build": "vite build",
