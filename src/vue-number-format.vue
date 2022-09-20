@@ -61,7 +61,7 @@ export default {
         this.$emit('update:value', value)
       }
     }
-    
+
   }
 }
 </script>
