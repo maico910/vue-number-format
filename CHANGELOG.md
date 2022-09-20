@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.6.0 (2022-09-20)
+
+
+### Features
+
+* Added create-app-version workflow ([ae7e74a](https://github.com/maico910/vue-number-format/commit/ae7e74ab4850eca501f0a720cbf8b234168995b1))
+* Added standard-version to create changelog ([32927bb](https://github.com/maico910/vue-number-format/commit/32927bb62d349b4d6ac1dcc586c41e398726d6d6))
+
+
+### Bug Fixes
+
+* build scripts ([b28bd9c](https://github.com/maico910/vue-number-format/commit/b28bd9c1b60bf05db865a2504cd74b0abdd67875))
+* Removed coverage folder to fix error cloning on Windows os ([fbe45c9](https://github.com/maico910/vue-number-format/commit/fbe45c9da4b239c631cd6600a1ad9b34a2955bd9))
+* Removed docs/package-lock from gitignore ([8b60421](https://github.com/maico910/vue-number-format/commit/8b60421b67bd19b6f575a978b477e8f228c36c11))
+* Update entry file and files to npm distribution ([e864ac7](https://github.com/maico910/vue-number-format/commit/e864ac77977bfa4ea2e8b2ad71d998cf2469a6dc))
+
+
+### Tests
+
+* Deploy test ([ca6b444](https://github.com/maico910/vue-number-format/commit/ca6b44448d58d58d25a6013452e26d6011f931e1))
+
+
+### Routine tasks
+
+* Added package-lock to secure install packages versions on ci ([8cb9525](https://github.com/maico910/vue-number-format/commit/8cb95259c75a4805452c4077934bdd86d4f0bf24))
+* Adding build docs command inside root package.json ([bfb1179](https://github.com/maico910/vue-number-format/commit/bfb1179c31ca31cce55c6e4a7186025fcddaf7f4))
+* Changing docs project folder ([2b34081](https://github.com/maico910/vue-number-format/commit/2b340812f6317e5fdebe9b600e5168384d303b76))
+* **release:** 1.4.0 ([dcac1fb](https://github.com/maico910/vue-number-format/commit/dcac1fb235da1256cd6e559ca28fc82835f0bf30))
+* **release:** 1.5.0 ([2f5bb53](https://github.com/maico910/vue-number-format/commit/2f5bb5361ddf4a3a5987f47cfce9648405f0c590))
+* **release:** 1.5.1 ([4f24f10](https://github.com/maico910/vue-number-format/commit/4f24f1049ea9a957dfd395fe88a46efa147a1d6b))
+* update eslint and add config ([4ff7b17](https://github.com/maico910/vue-number-format/commit/4ff7b1753d3dc3b6098d2e20c5fd2ea51fde77f7))
+* Updated workflow ([943eaff](https://github.com/maico910/vue-number-format/commit/943eaffa95ea51aab6cf9216b115c37c8b7283e9))
+* Updated workflow node version ([7ddc718](https://github.com/maico910/vue-number-format/commit/7ddc718bbe2c1c486c029de9e19c30da8bbb30fb))
+* Updated workflow to build docs and deploy it to npm ([ba8cd94](https://github.com/maico910/vue-number-format/commit/ba8cd946df0393f44c83fcdd47f5c4f07d9b019e))
+
 ### [1.5.1](https://github.com/igortrinidad/vue-number-format/compare/v1.5.0...v1.5.1) (2022-09-20)
 
 
