@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-import { IDefaultOptions, defaultOptions } from './types/defaultOptions'
+import { defaultOptions, type IFormatOptions } from './types/FormatOptions'
 
-export const format = (input: number | string | null = 0, opt: IDefaultOptions = defaultOptions) => {
+export const format = (input: number | string | null = 0, opt: IFormatOptions = defaultOptions) => {
   if(input === null) input = 0
   const mergedOptions = Object.assign({}, defaultOptions, opt)
   if (typeof input === 'number' && !mergedOptions.isInteger) {
@@ -47,7 +47,7 @@ export const setCursor = (el, position) => {
 }
 
 
-export const setCursorPosition = (el, opt: IDefaultOptions = defaultOptions) => {
+export const setCursorPosition = (el, opt: IFormatOptions = defaultOptions) => {
   var positionFromEnd = el.value.length - el.selectionEnd
   el.value = format(el.value, opt)
   positionFromEnd = Math.max(positionFromEnd, opt.suffix.length)

@@ -1,10 +1,10 @@
 /*global global */
 import VueNumberFormat from './components/vue-number-format.vue'
-import { defaultOptions, IDefaultOptions } from './types/defaultOptions'
+import { defaultOptions, IFormatOptions } from './types/FormatOptions'
 import { format, unformat } from './utils'
 
 // Declare install function executed by Vue.use()
-const install = (Vue, options: IDefaultOptions) => {
+const install = (Vue, options: IFormatOptions) => {
 
   Vue.component('VueNumberFormat', VueNumberFormat)
 

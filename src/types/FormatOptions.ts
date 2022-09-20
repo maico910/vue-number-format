@@ -1,4 +1,4 @@
-export interface IDefaultOptions {
+export interface IFormatOptions {
   prefix: string
   suffix: string
   decimal: string
@@ -9,7 +9,7 @@ export interface IDefaultOptions {
   vueVersion?: string
 }
 
-export const defaultOptions: IDefaultOptions = {
+export const defaultOptions: IFormatOptions = {
   prefix: 'R$ ',
   suffix: '',
   decimal: ',',
